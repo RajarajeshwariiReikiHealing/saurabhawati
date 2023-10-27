@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #292927cf;
 }
 
 a {
@@ -255,7 +255,10 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #f5064eee;
+  -webkit-text-stroke: 1px white; /* Apply a 1-pixel wide burgundy border to letters */
+  display: inline-block;
+  background-color: white;
 }
 
 #hero p {
